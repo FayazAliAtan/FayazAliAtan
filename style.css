@@ -1,0 +1,179 @@
+/* General Body Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #1a1a1a;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand i {
+    color: #ffcc00;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #ffcc00 !important;
+}
+
+.navbar-toggler-icon {
+    background-color: #ffcc00;
+}
+
+/* Search Section Styling */
+#search {
+    background: url('https://via.placeholder.com/1500x500') no-repeat center center/cover;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#search h2 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+#search input {
+    border-radius: 30px;
+    padding: 15px;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    max-width: 600px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Sort Section Styling */
+#sort {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#sort select {
+    border-radius: 30px;
+    padding: 15px;
+    font-size: 1.1rem;
+    border: 2px solid #ccc;
+    max-width: 300px;
+    margin-top: 10px;
+}
+
+/* Featured Products Section */
+.card {
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 30px;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Button Styling */
+.btn-primary {
+    background-color: #ffcc00;
+    border: none;
+    color: black;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #e6b800;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ffcc00;
+    text-decoration: underline;
+}
+
+footer i {
+    font-size: 25px;
+    transition: color 0.3s;
+}
+
+footer i:hover {
+    color: #ffcc00;
+}
+
+footer .form-inline input {
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+footer .form-inline button {
+    background-color: #ffcc00;
+    color: black;
+    border: none;
+}
+
+footer .form-inline button:hover {
+    background-color: #e6b800;
+}
+
+/* Footer Columns */
+footer .col-md-4 h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Carousel Styling */
+.carousel-inner img {
+    border-radius: 15px;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 767px) {
+    #search h2 {
+        font-size: 2rem;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+    footer .col-md-4 {
+        margin-bottom: 30px;
+    }
+}
